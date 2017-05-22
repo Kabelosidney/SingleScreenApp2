@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.info.singlescreenapp.MainActivity"
+    android:background="@drawable/single">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"><![CDATA[
+
+        />
+
+
+        ]]>
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THE HEAVEN'S 'PEACE'"
+            android:textStyle="italic|bold"
+            android:textSize="37.5sp"
+            android:textColor="#596873"
+            android:background="#29487734"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="228dp"
+            android:layout_height="258dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/single2" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="
+         WELCOME TO THE HEAVEN'S PEACE.
+ * Happiness is when what you think, what you say, and what you do are in harmony. - Mahatma Gandhi
+
+ * There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered.- Nelson Mandela
+
+         Change your thoughts and you change your world. - Norman Vincent Peale
+
+ * We are not disturbed by what happens to us, but by our thoughts about what happens to us. - Epictetus
+
+ * It is not possible to be in favor of justice for some people and not be in favor of justice for all people.- Martin Luther King, Jr.
+
+ * One hour's meditation on the work of the Creator is better than seventy years of prayer.- Muhammad"
+
+        android:textSize="18sp"
+            android:textColor="#278458"/>"
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:background="#78234656"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.189"
+            app:layout_constraintVertical_bias="0.775"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:background="#78234656"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.189"
+            app:layout_constraintVertical_bias="0.775"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
